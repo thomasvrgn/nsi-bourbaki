@@ -1,0 +1,27 @@
+@media (min-width: 640px) {
+  .sm\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .sm\:w-3\/4 {
+    width: 75%;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
+  .sm\:text-left {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:w-3\/4 {
+    width: 75%;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+}

@@ -1,0 +1,88 @@
+/* TEXT ALIGNMENT */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+/* TEXT SIZE */
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+/* FONT WEIGHT */
+.font-black {
+  font-weight: 900;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+/* FONT STYLE */
+.underline-offset-1 {
+  text-underline-offset: 1px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+/* TEXT SPACING */
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.tracking-wide {
+  letter-spacing: .025em;
+}
+
+.tracking-wider {
+  letter-spacing: .05em;
+}

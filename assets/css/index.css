@@ -1,0 +1,13 @@
+/* Importing CSS Resetter */
+@import "components/reset.css";
+
+/* Importing each component */
+@import "components/colors.css";
+@import "components/effects.css";
+@import "components/image.css";
+@import "components/spacing.css";
+@import "components/text.css";
+
+/* Importing media queries */
+@import "components/screens/medium.css";
+@import "components/screens/large.css";
