@@ -16,3 +16,6 @@
 /* Importing media queries */
 @import "components/screens/medium.css";
 @import "components/screens/large.css";
+
+/* PS: Using CSS variables in order to avoid hardcoding values
+       and also sharing values and properties between files */
