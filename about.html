@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <title>Nicolas Bourbaki</title>
+  </head>
+  <body>
+    <header class="bg-gradient-to-tr from-pink-500 to-red-700 p-16 px-8 lg:py-24">
+      <div class="container sm:w-3/4 lg:w-1/2 mx-auto text-white text-center sm:text-left">
+        <h1 class="font-black text-4xl">Un titre lambda provisoire</h1>
+        <p class="mt-4 opacity-80 text-lg lg:w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sit, natus quasi, optio alias in accusantium maxime accusamus obcaecati, delectus facere tempore quis quia deserunt quibusdam facilis architecto voluptatem eos!</p>
+        <button class="bg-white bg-opacity-30 py-2 px-6 hover:bg-opacity-[0.35] transition-all duration-200 rounded-md font-medium tracking-wide sm:mt-4 mt-12 drop-shadow-lg">En savoir davantage</button>
+      </div>
+    </header>
+    
+    <article class="p-8 md:w-3/4 lg:w-1/2 mx-auto">
+      <h2 class="font-black text-3xl lg:text-4xl mb-6 text-neutral-800">Conception du site</h2>
+      <p class="text-lg leading-8 text-neutral-700">
+        Ce site a été conçu en prévision de support des fonctionnalités de HTML5 et CSS3.
+        Certaines APIs CSS modernes ont été utilisées comme <code>flex</code> ou <code>background-gradient</code>... Il se peut donc que
+        certains effets visuels puissent être absents si le navigateur utilisé est ancien.
+        <br /><br />
+        La conception a été effectuée avec l'aide du framework CSS <b>Tailwind</b> et d'un <b>retravail, optimisation et formattage</b> du code CSS généré afin
+        d'obtenir un fichier d'output CSS le plus propre qu'il soit.
+      </p>
+    </article>
+    
+    <article class="p-8 md:w-3/4 lg:w-1/2 mx-auto mb-16">
+      <h2 class="font-black text-3xl lg:text-4xl mb-6 text-neutral-800">Charte graphique</h2>
+      <div class="p-4">
+        <h4 class="text-2xl text-neutral-800 opacity-90 font-bold">Couleurs</h4>
+        <div class="flex flex-row sm:justify-between flex-wrap">
+          <span class="w-24 h-24 relative block bg-pink-500 rounded-lg m-4 ml-0"></span>
+          <span class="w-24 h-24 relative block bg-red-700 rounded-lg m-4 ml-0"></span>
+          <span class="w-24 h-24 relative block bg-neutral-800 rounded-lg m-4 ml-0"></span>
+          <span class="w-24 h-24 relative block bg-neutral-700 rounded-lg m-4 ml-0"></span>
+          <span class="w-24 h-24 relative block bg-neutral-50 rounded-lg m-4 ml-0"></span>
+        </div>
+      </div>
+      <div class="p-4">
+        <h4 class="text-2xl text-neutral-800 opacity-90 font-bold">Textes</h4>
+        <ul class="text-lg text-neutral-500 mt-2">
+          <li>Police utilisée: <span class="text-neutral-800 font-medium">Police native du navigateur</span></li>
+          <div>
+            <li>Epaisseurs de police:</li>
+            <ul class=" ml-4 text-neutral-800 font-bold">
+              <li>
+                900 (black)
+              </li>
+              <li>
+                700 (bold)
+              </li>
+              <li>
+                500 (medium)
+              </li>
+              <li>
+                400 (normal)
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+    </article>
+    
+    <footer class="p-8 bg-neutral-50 lg:py-16">
+      <div class="lg:w-1/2 md:w-3/4 mx-auto">
+        <p class="text-lg mb-8 text-neutral-500">
+          <img src="https://avatars.githubusercontent.com/u/56793090?v=4" alt="" class="h-12 rounded-full inline align-middle mr-4" />
+          Site réalisé par <a href="https://github.com/thomasvergne" target="_blank" class="font-medium text-neutral-800">Thomas Vergne</a>.
+        </p>
+        <p class="text-lg text-neutral-800 opacity-80 lg:w-3/4">Découvrez l'incroyable vie de ce célèbre personnage de renommée mondiale à travers un site moderne, spacieux et agréable.</p>
+        <div class="mt-8">
+          <span class="text-neutral-700 uppercase tracking-wider font-black">Pages</span>
+          <ul class="mt-2 space-y-1 text-lg text-neutral-600">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="projects.html">Projets</a></li>
+            <li><a href="biography.html">Biographie</a></li>
+            <li><a href="about.html">Conception du site</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>  
+  </body>
+</html>
